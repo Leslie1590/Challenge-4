@@ -6,8 +6,11 @@ var button2El = document.querySelector("#answer2");
 var button3El = document.querySelector("answer3");
 
 
-//questions array
 
+//start game
+window.alert("Click OK to start the quiz!");
+
+//questions array
 var questionsArray =[
     {
         question1: "Some nerdy question here?",
@@ -37,12 +40,29 @@ function questionNumberOne(){
 
 //question 2 function
 
+function questionNumberTwo(){
+  button1.addEventListener("click", "")
+  button2.addEventListener("click", "")
+  button3.addEventListener("click", "")
+
+
+  
+};
+
 
 
 //question 3 function
 
+function questionNumberThree(){
+  button1.addEventListener("click", "")
+  button2.addEventListener("click", "")
+  button3.addEventListener("click", "")
 
-//add event listeners to each button
+
+  
+};
+
+
 
 //timer function
 
@@ -68,3 +88,13 @@ function countdown() {
 //move on to the next function
 
 questionNumberOne ();
+questionNumberTwo ();
+questionNumberThree ();
+
+
+// save to local storage
+
+var saveQuiz = function() {
+  localStorage.setItem("quiz", JSON.stringify(quiz));
+  console.log();
+}
