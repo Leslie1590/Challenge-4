@@ -21,7 +21,42 @@ body {
     width: 80vw;
     margin: 25px auto;
   }
-  .button {
+  .button1 {
+    flex-wrap: wrap;
+    display: block;
+    float: left;
+    width: 31%;
+    height: 50px;
+    margin: 1%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #0e87eb;
+    text-align: center;
+    line-height: 200px;
+    font-size: 150px;
+    color: whitesmoke;
+  }
+
+  .button2 {
+    flex-wrap: wrap;
+    display: block;
+    float: left;
+    width: 31%;
+    height: 50px;
+    margin: 1%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #0e87eb;
+    text-align: center;
+    line-height: 200px;
+    font-size: 150px;
+    color: whitesmoke;
+  }
+
+  .button3 {
+    flex-wrap: wrap;
     display: block;
     float: left;
     width: 31%;
